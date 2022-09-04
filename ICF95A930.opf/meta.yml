@@ -1,27 +1,50 @@
 id: ICF95A930
+legacy_id: P000447
+ocr_import_info:
+  bdrc_scan_id: W6472
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-22T09:09:56'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-22T09:12:00+00:00'
-last_modified: '2022-06-15T18:29:37.239803+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-04T03:09:21.299912+00:00'
+last_modified: 2022-09-04 11:09:32.035998
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W6472
-  title: ཆོས་བཤད་གཞན་ཕན་ཟླ་བ།
-  author: ''
+  id: http://purl.bdrc.io/resource/W6472
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    A1FF:
-      image_group_id: I1KG17043
-      title: Volume 1 of chos bshad gzhan phan zla ba/
+  reproduction_of: http://purl.bdrc.io/resource/MW6472
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: ཆོས་བཤད་གཞན་ཕན་ཟླ་བ།
+  author: ཞབས་དཀར་བ་ཚོགས་དྲུག་རང་གྲོལ།
+statistics:
+  ocr_word_mean_confidence_index: 0.5250592815480332
+  ocr_word_median_confidence_index: 0.5
+quality: null
+bases:
+  I1KG17043:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG17043
       total_pages: 327
-      order: 1
-      base_file: A1FF.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1KG17043.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.5
+      ocr_word_mean_confidence_index: 0.5250592815480332
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
